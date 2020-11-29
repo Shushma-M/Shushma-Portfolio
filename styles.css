@@ -1,0 +1,99 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+:root{
+    --primary-color:#BE185D;
+    --white: white;
+    --deck: #100718;
+    --secondary-color:#4a4972;
+}
+body{
+    font-family: 'Raleway', sans-serif;
+}
+.seg-one {
+    background: url('/images/backg.jpg') center center/cover;
+    height: 100vh;
+    left: 0;
+    top: 0;
+    width: 100vw;
+}
+.flex {
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    
+}
+.link-main {
+    text-decoration: none;
+    color: var(--white);
+    padding: 1rem 1rem;
+    border: 0.5px solid var(--white)
+}
+h1{
+    color: black;
+    font-size: 32pt;
+    font-weight: bold ;
+    text-align: center;
+    margin: 0px 0px 0px 0px; 
+    padding: 0px 0px 0px 0px;
+}
+.name{
+    color: var(--primary-color);
+    font-size: 40pt;
+    font-weight: bolder;
+}
+.seg-two {
+    background-color: var(--deck);
+    left: 0;
+    /*position: absolute;*/
+    top: 0;
+    width: 100vw;
+}
+.deck-main{
+    list-style: none;
+    font-size: 20pt;
+    font-weight: bold;
+    display: inline-flex;
+}
+
+.link-two{
+    text-decoration: none;
+    color: var(--white);
+    padding: 0rem 2rem 0rem 0rem;
+}
+.seg-three{
+    left: 0;
+    font-size: 20pt;
+    font-weight: bold;
+    top: 0;
+    width: 100vw;
+}
+h2{
+    color: var(--secondary-color);
+    font-size: 27pt;
+    font-weight: bold ;
+    text-align: center;
+}
+p{
+    font-size: 12pt;
+    font-weight: bold ;
+    text-align: center;
+}
+.flex-two {
+    align-items: center;
+    display:flex;
+    flex-direction: row;
+    justify-content: center;
+}
+h3{
+    color: var(--secondary-color);
+    font-size: 20pt;
+    font-weight: bold ;
+    text-align: center;
+}
+.list {
+    background-color:var(--secondary-color);
+    color: var(--white);
+    padding: 1rem 1rem;
+    border: 0.5px solid var(--white)
+}
+
