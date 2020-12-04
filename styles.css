@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@200&display=swap');
 :root{
     --primary-color:#BE185D;
     --white: white;
@@ -9,63 +9,77 @@ body{
     font-family: 'Raleway', sans-serif;
 }
 .seg-one {
-    background: url('/images/backg.jpg') center center/cover;
+    background: url('/images/bckgrnd.jpg') center center/cover;
     height: 100vh;
     left: 0;
     top: 0;
     width: 100vw;
-}
-.flex {
     align-items: center;
     display: flex;
     flex-direction: column;
     justify-content: center;
-    
-}
-.link-main {
-    text-decoration: none;
-    color: var(--white);
-    padding: 1rem 1rem;
-    border: 0.5px solid var(--white)
 }
 h1{
-    color: black;
+    color: var(--white);
     font-size: 32pt;
-    font-weight: bold ;
     text-align: center;
-    margin: 0px 0px 0px 0px; 
-    padding: 0px 0px 0px 0px;
+    margin: 0px 0px 5px 0px; 
 }
 .name{
     color: var(--primary-color);
     font-size: 40pt;
     font-weight: bolder;
 }
-.seg-two {
-    background-color: var(--deck);
-    left: 0;
-    /*position: absolute;*/
-    top: 0;
-    width: 100vw;
+.button {
+    margin-top: 50px;
 }
-.deck-main{
-    list-style: none;
+.link-main{
+    text-decoration: none;
+    color: var(--white);
+    padding: 1rem 1rem;
+    border: 0.5px solid var(--white);
     font-size: 20pt;
-    font-weight: bold;
-    display: inline-flex;
 }
 
-.link-two{
+.seg-two {
+    background-color: black;
+    width: 100vw;
+}
+.deck-header{
+    list-style: none;
+    font-size: 20pt;
+    display: inline-flex;
+}
+.link-deck{
     text-decoration: none;
     color: var(--white);
     padding: 0rem 2rem 0rem 0rem;
 }
+a.link-deck:hover{
+    color: var(--primary-color);
+}
+
 .seg-three{
     left: 0;
     font-size: 20pt;
     font-weight: bold;
     top: 0;
     width: 100vw;
+}
+.prop{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    max-width: 25%;
+    min-width: 20%;
+    margin-right: 3rem;
+}
+.prop-main{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
 }
 h2{
     color: var(--secondary-color);
@@ -78,11 +92,100 @@ p{
     font-weight: bold ;
     text-align: center;
 }
-.flex-two {
+.lang-main{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    list-style: none;
+}
+.lang {
+    background-color:var(--secondary-color);
+    color: var(--white);
+    padding: 1rem 1rem;
+    border: 0.5px solid var(--white);
+    margin-right: 2rem;
+}
+h4{
+    color: black;
+    font-size: 18pt;
+    font-weight: bold ;
+}
+.proj{
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 0.5rem 0.5rem;
+    border: 0.5px solid var(--secondary-color);
+    margin-right: 1rem;;
+    font-size: 15pt;
+}
+a.proj:hover{
+    background-color: var(--secondary-color);
+    color:white;
+}
+.seg-six {
+    background-color: black;
+    width: 100vw;
+    height: 15rem;
+}
+.sub-one{
+    color: white;
+    font-size: 15pt;
+}
+.i-design{
+    color: var(--primary-color);
+}
+.deck-footer-one{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    margin-bottom: 2rem; 
+}
+.deck-footer-two{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+}
+.soc-med{
+    background-color: var(--primary-color); /* Blue background */
+    color: white; /* White text */
+    padding: 12px 16px; /* Some padding */
+    cursor: pointer; /* Mouse pointer on hover */
+    text-decoration: none;
+    margin-right: 1rem;
+}
+.flex-row {
     align-items: center;
     display:flex;
     flex-direction: row;
     justify-content: center;
+    flex-wrap: wrap;
+    transition: all .5s;
+      }
+.flex-two {
+    display: -ms-flexbox;     /* TWEENER - IE 10 */
+    display: inline-flex; 
+    max-width: 1200px; 
+    -ms-flex-pack: distribute;
+    justify-content: space-around;
+    margin: 40px auto;
+    flex-wrap: wrap;
+ }
+ .card {
+    margin: 0 40px auto;
+    padding: 20px 40px 40px;
+    max-width: 80%;
+    min-width: 40%;
+    text-align: left;
+    border-bottom: 4px solid #ccc;
+    border-radius: 6px;
+    transition: all .5s;
+}
+.block-size {
+    width: 25%;
+    overflow: visible;
 }
 h3{
     color: var(--secondary-color);
