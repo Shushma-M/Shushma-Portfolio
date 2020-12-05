@@ -126,7 +126,8 @@ a.proj:hover{
 .seg-six {
     background-color: black;
     width: 100vw;
-    height: 15rem;
+    height: 10rem;
+    padding-top: 3rem; 
 }
 .sub-one{
     color: white;
@@ -141,6 +142,7 @@ a.proj:hover{
     flex-direction: column;
     justify-content: center; 
     margin-bottom: 2rem; 
+    margin-top: 1rem; 
 }
 .deck-footer-two{
     align-items: center;
