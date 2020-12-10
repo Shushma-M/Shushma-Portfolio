@@ -3,7 +3,7 @@
     --primary-color:#BE185D;
     --white: white;
     --deck: #100718;
-    --secondary-color:#4a4972;
+    --secondary-color:#6d586b;
 }
 body{
     font-family: 'Raleway', sans-serif;
@@ -123,11 +123,56 @@ a.proj:hover{
     background-color: var(--secondary-color);
     color:white;
 }
+.seg-five {
+    justify-content: center;
+    margin:auto;
+    width:80%;
+    height:80%;
+}
+.blog-sec{
+    display: flex;
+    flex-direction: row;
+    max-width: 80%;
+    min-width: 60%;
+    justify-content: center;
+    margin:auto;
+    width:80%;
+    height:80%;
+}
+.blog{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin:auto;
+    width:80%;
+    height:80%;
+}
+.blog-img{
+    margin:auto;
+    max-width: 200px;
+    min-width: 100px;
+    }
+.blog-link{
+    text-decoration: none;
+    color: var(--secondary-color);
+    padding: 0.5rem 0.5rem;
+    margin:auto;
+    border: 0.5px solid var(--secondary-color);
+    font-size: 15pt;
+    text-align: center;
+    max-width: 57%;
+    min-width: 40%;
+}
+a.blog-link:hover{
+    background-color: var(--secondary-color);
+    color:white;
+ }
 .seg-six {
     background-color: black;
     width: 100vw;
     height: 10rem;
     padding-top: 3rem; 
+    margin-top: 5rem;
 }
 .sub-one{
     color: white;
@@ -201,4 +246,5 @@ h3{
     padding: 1rem 1rem;
     border: 0.5px solid var(--white)
 }
+
 
